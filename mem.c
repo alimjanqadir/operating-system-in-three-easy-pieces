@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "common.h"
+#include "libs/common.h"
 
 int main(int argc, char *argv[]) {
 	int *p = malloc(sizeof(int));
